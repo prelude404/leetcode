@@ -17,7 +17,7 @@ public:
         int i=0;
         while(i<len)
         {
-            // switch语句？
+            // switch语句？？？
             
         }
         return num;

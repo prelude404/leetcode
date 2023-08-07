@@ -15,7 +15,7 @@ public:
     bool isPalindrome(int x) {
         string s = to_string(x);
         int len = s.size();
-        // int型相除向下取整；
+        // int整数相除向下取整；
         // 可利用(double)2/5强制类型转换得到0.4
         int half_len = len/2 + 1;
         for(int i=0; i<half_len; i++)
