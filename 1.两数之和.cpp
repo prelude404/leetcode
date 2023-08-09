@@ -10,8 +10,8 @@
 using namespace std;
 
 /*
-1. 暴力搜索，利用i和j进行两层的遍历
-2. 哈希表，使j的查找target-num[i]的时间复杂度变为O(1)
+1. 暴力搜索，利用i和j进行两层的遍历，时间复杂度为O(N^2)
+2. 哈希表，使j的查找target-num[i]的时间复杂度变为O(1),总时间复杂度为O(N)
 */
 
 // @lc code=start
